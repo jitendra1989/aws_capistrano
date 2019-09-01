@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-    # just for test added comment
+    # Revert changes
   end
 
   # GET /users/1
